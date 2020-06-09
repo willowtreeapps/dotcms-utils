@@ -1,0 +1,45 @@
+{
+  "name": "@willowtreeapps/dotcms-utils",
+  "version": "1.0.0",
+  "description": "CLI and utilities library for interacting with dotCMS",
+  "main": "dist/index.js",
+  "bin": "dist/cli.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/willowtreeapps/dotcms-utils.git"
+  },
+  "keywords": [
+    "dotcms"
+  ],
+  "author": "WillowTree",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/willowtreeapps/dotcms-utils/issues"
+  },
+  "homepage": "https://github.com/willowtreeapps/dotcms-utils#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "commander": "^5.1.0",
+    "diff-match-patch": "^1.0.5",
+    "dotcms": "^0.0.13",
+    "find-root": "^1.1.0",
+    "inquirer": "^7.1.0",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "@types/cheerio": "^0.22.18",
+    "@types/diff-match-patch": "^1.0.32",
+    "@types/inquirer": "^6.5.0",
+    "@types/node": "^14.0.5",
+    "@types/node-fetch": "^2.5.7",
+    "dotcms-models": "^0.0.9",
+    "typescript": "^3.9.3"
+  }
+}

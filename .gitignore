@@ -1,0 +1,10 @@
+# build output
+dist
+node_modules
+
+# misc
+.DS_Store
+
+# test files
+dotcms.config.json
+diff.html
