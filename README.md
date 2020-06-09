@@ -5,8 +5,8 @@ CLI and utilities library for interacting with dotCMS.
 ## Usage
 
 ```bash
-# TODO: publish to NPM (issue #5)
-npm i -g dotcms-utils
+# Install globally
+npm i -g @willowtreeapps/dotcms-utils
 
 # See all available options
 dotcms-utils

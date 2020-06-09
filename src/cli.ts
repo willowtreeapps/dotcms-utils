@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 // Entry point for the CLI application.
 // New commands should be defined in this file.
 

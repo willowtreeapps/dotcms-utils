@@ -1,3 +1,4 @@
+import { URL } from 'url'
 import { prompt } from 'inquirer'
 import { readConfig, writeConfig } from './config'
 
